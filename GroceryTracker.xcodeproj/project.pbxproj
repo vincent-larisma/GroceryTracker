@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C0380C72B2431C700DD6DC7 /* NumericButtonGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0380C62B2431C700DD6DC7 /* NumericButtonGroupView.swift */; };
+		2C0380C92B24321200DD6DC7 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0380C82B24321200DD6DC7 /* ButtonView.swift */; };
+		2C0380CB2B24328500DD6DC7 /* OperatorButtonGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0380CA2B24328500DD6DC7 /* OperatorButtonGroupView.swift */; };
+		2C0380CD2B2433C000DD6DC7 /* SpecialButtonGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0380CC2B2433C000DD6DC7 /* SpecialButtonGroupView.swift */; };
 		2CC1EC222B14775C00E608C1 /* GroceryTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC1EC212B14775C00E608C1 /* GroceryTrackerApp.swift */; };
 		2CC1EC242B14775C00E608C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC1EC232B14775C00E608C1 /* ContentView.swift */; };
 		2CC1EC262B14775D00E608C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CC1EC252B14775D00E608C1 /* Assets.xcassets */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C0380C62B2431C700DD6DC7 /* NumericButtonGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericButtonGroupView.swift; sourceTree = "<group>"; };
+		2C0380C82B24321200DD6DC7 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		2C0380CA2B24328500DD6DC7 /* OperatorButtonGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorButtonGroupView.swift; sourceTree = "<group>"; };
+		2C0380CC2B2433C000DD6DC7 /* SpecialButtonGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialButtonGroupView.swift; sourceTree = "<group>"; };
 		2CC1EC1E2B14775C00E608C1 /* GroceryTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CC1EC212B14775C00E608C1 /* GroceryTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryTrackerApp.swift; sourceTree = "<group>"; };
 		2CC1EC232B14775C00E608C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +42,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C0380C32B24318800DD6DC7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C0380C52B24319E00DD6DC7 /* Buttons */,
+				2C0380C42B24318E00DD6DC7 /* HelperView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2C0380C42B24318E00DD6DC7 /* HelperView */ = {
+			isa = PBXGroup;
+			children = (
+				2C0380C82B24321200DD6DC7 /* ButtonView.swift */,
+			);
+			path = HelperView;
+			sourceTree = "<group>";
+		};
+		2C0380C52B24319E00DD6DC7 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				2C0380C62B2431C700DD6DC7 /* NumericButtonGroupView.swift */,
+				2C0380CA2B24328500DD6DC7 /* OperatorButtonGroupView.swift */,
+				2C0380CC2B2433C000DD6DC7 /* SpecialButtonGroupView.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
 		2CC1EC152B14775C00E608C1 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +88,7 @@
 		2CC1EC202B14775C00E608C1 /* GroceryTracker */ = {
 			isa = PBXGroup;
 			children = (
+				2C0380C32B24318800DD6DC7 /* Views */,
 				2CC1EC212B14775C00E608C1 /* GroceryTrackerApp.swift */,
 				2CC1EC232B14775C00E608C1 /* ContentView.swift */,
 				2CC1EC2F2B14D60E00E608C1 /* CalculatorView.swift */,
@@ -142,7 +178,11 @@
 			files = (
 				2CC1EC242B14775C00E608C1 /* ContentView.swift in Sources */,
 				2CC1EC302B14D60E00E608C1 /* CalculatorView.swift in Sources */,
+				2C0380C92B24321200DD6DC7 /* ButtonView.swift in Sources */,
 				2CC1EC222B14775C00E608C1 /* GroceryTrackerApp.swift in Sources */,
+				2C0380CD2B2433C000DD6DC7 /* SpecialButtonGroupView.swift in Sources */,
+				2C0380C72B2431C700DD6DC7 /* NumericButtonGroupView.swift in Sources */,
+				2C0380CB2B24328500DD6DC7 /* OperatorButtonGroupView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
